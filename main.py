@@ -11,6 +11,7 @@ import time
 import streamlit as st
 import uuid
 from dotenv import load_dotenv, dotenv_values 
+os.environ['PYVISTA_OFF_SCREEN'] = 'true'
 
 load_dotenv()
 
